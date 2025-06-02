@@ -16,7 +16,3 @@ steps:
       '--platform', 'managed',
       '--allow-unauthenticated'
     ]
-
-# Définit l'image à stocker dans GCR
-images:
-  - 'gcr.io/$PROJECT_ID/mydeploy1:latest'
